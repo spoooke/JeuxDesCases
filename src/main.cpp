@@ -20,9 +20,12 @@ int main()
     }
 
     // rajout de TileMap dans le main.cpp
-    TileMap map(sf::Vector2u(32, 32), level, 10, 10);
+    TileMap map(sf::Vector2u(32, 64), level, 10, 10);
     
-
+    // Calcul ce la position pour centrer la carte
+    sf::Vector2u windowSize = window.getSize();
+    sf::Vector2f mapPosition((windowSize.x - 10 * 32) / 2, (windowSize.y - 10 * 32) / 2);
+    map.setPosition(mapPosition);
     
     while (window.isOpen())
     {
