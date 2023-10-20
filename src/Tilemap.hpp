@@ -1,4 +1,3 @@
-// TileMap.hpp
 #ifndef TILEMAP_HPP
 #define TILEMAP_HPP
 
@@ -6,7 +5,7 @@
 
 class TileMap : public sf::Drawable, public sf::Transformable {
 public:
-    TileMap(const sf::Vector2u tileSize, unsigned int width, unsigned int height);
+    TileMap(const sf::Vector2u tileSize, const sf::Color* level, unsigned int width, unsigned int height);
 
 private:
     sf::VertexArray m_vertices;

@@ -307,7 +307,7 @@ src/CMakeFiles/SFML_Project.dir/Tilemap.cpp.o
  /Library/Frameworks/SFML.framework/Headers/Window/WindowBase.hpp
  /Library/Frameworks/SFML.framework/Headers/Window/WindowHandle.hpp
  /Library/Frameworks/SFML.framework/Headers/Window/WindowStyle.hpp
- /Users/sebastiengillio/Desktop/Perso/CODE/SFML-Project-Template-master/src/Tilemap.hpp
+ /Users/sebastiengillio/Desktop/Perso/CODE/SFML-Project-Template-master/src/TileMap.hpp
 
 src/CMakeFiles/SFML_Project.dir/main.cpp.o
  /Users/sebastiengillio/Desktop/Perso/CODE/SFML-Project-Template-master/src/main.cpp
@@ -617,6 +617,6 @@ src/CMakeFiles/SFML_Project.dir/main.cpp.o
  /Library/Frameworks/SFML.framework/Headers/Window/WindowBase.hpp
  /Library/Frameworks/SFML.framework/Headers/Window/WindowHandle.hpp
  /Library/Frameworks/SFML.framework/Headers/Window/WindowStyle.hpp
- /Users/sebastiengillio/Desktop/Perso/CODE/SFML-Project-Template-master/build/src/config.h
  /Users/sebastiengillio/Desktop/Perso/CODE/SFML-Project-Template-master/src/Tilemap.hpp
+ /Users/sebastiengillio/Desktop/Perso/CODE/SFML-Project-Template-master/src/config.h.in
 
