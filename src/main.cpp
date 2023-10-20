@@ -8,18 +8,19 @@ using namespace std;
 
 int main()
 {
-    // on crée la fenêtre
-    sf::RenderWindow window(sf::VideoMode(512, 256), "TileMap");
+    // Création de la fenêtre
+    sf::RenderWindow window(sf::VideoMode(800, 600), "TileMap");
 
-    // on définit le niveau à l'aide de numéro de tuiles
-    const sf::Color level[] =
-    {
-        sf::Color::Blue, sf::Color::Red, 
-        sf::Color::Yellow, sf::Color::Black
-    };
+    
+    const int numTiles = 100;
+    sf::Color level[numTiles];
+
+    for (int i = 0; i < numTiles; ++i) {
+        level[i] = sf::Color::White;
+    }
 
     // rajout de TileMap dans le main.cpp
-    TileMap map(sf::Vector2u(32, 32), level, 2, 2);
+    TileMap map(sf::Vector2u(32, 32), level, 10, 10);
     
 
     
