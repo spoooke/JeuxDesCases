@@ -306,7 +306,7 @@ src/CMakeFiles/SFML_Project.dir/Tilemap.cpp.o: /Users/sebastiengillio/Desktop/Pe
   /Library/Frameworks/SFML.framework/Headers/Window/WindowBase.hpp \
   /Library/Frameworks/SFML.framework/Headers/Window/WindowHandle.hpp \
   /Library/Frameworks/SFML.framework/Headers/Window/WindowStyle.hpp \
-  /Users/sebastiengillio/Desktop/Perso/CODE/SFML-Project-Template-master/src/TileMap.hpp
+  /Users/sebastiengillio/Desktop/Perso/CODE/SFML-Project-Template-master/src/Tilemap.hpp
 
 src/CMakeFiles/SFML_Project.dir/main.cpp.o: /Users/sebastiengillio/Desktop/Perso/CODE/SFML-Project-Template-master/src/main.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include/Availability.h \
@@ -624,8 +624,6 @@ src/CMakeFiles/SFML_Project.dir/main.cpp.o: /Users/sebastiengillio/Desktop/Perso
 /Library/Developer/CommandLineTools/usr/include/c++/v1/iostream:
 
 /Users/sebastiengillio/Desktop/Perso/CODE/SFML-Project-Template-master/src/main.cpp:
-
-/Users/sebastiengillio/Desktop/Perso/CODE/SFML-Project-Template-master/src/TileMap.hpp:
 
 /Library/Frameworks/SFML.framework/Headers/Window/WindowStyle.hpp:
 
