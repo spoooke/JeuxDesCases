@@ -25,7 +25,7 @@ include_directories("${PROJECT_BINARY_DIR}")
 
 # Define sources and executable
 set(EXECUTABLE_NAME "SFML_Project")
-add_executable(${EXECUTABLE_NAME} main.cpp Tilemap.cpp)
+add_executable(${EXECUTABLE_NAME} main.cpp Tilemap.cpp TileMapLoader.cpp)
 
 
 # Detect and add SFML

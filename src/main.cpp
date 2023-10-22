@@ -2,6 +2,7 @@
 #include <iostream>
 #include <SFML/Graphics.hpp>
 #include "Tilemap.hpp"
+#include "TileMapLoader.hpp"
 
 using namespace std;
 
@@ -20,8 +21,9 @@ int main()
     }
 
     // rajout de TileMap dans le main.cpp
-    TileMap map(sf::Vector2u(32, 64), level, 10, 10);
+    TileMap map(new std::string ("level1.lvl"), sf::Vector2u(32, 32), level, 10, 10);
     
+    TileMapLoader::Save (map);
     // Calcul ce la position pour centrer la carte
     sf::Vector2u windowSize = window.getSize();
     sf::Vector2f mapPosition((windowSize.x - 10 * 32) / 2, (windowSize.y - 10 * 32) / 2);
