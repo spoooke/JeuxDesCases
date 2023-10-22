@@ -1,6 +1,10 @@
 #include "Tilemap.hpp"
 
-TileMap::TileMap(const sf::Vector2u tileSize, const sf::Color* level, unsigned int width, unsigned int height) {
+TileMap::TileMap(std::string* filepath, const sf::Vector2u tileSize, const sf::Color* level, unsigned int width, unsigned int height) {
+    m_filepath = filepath;
+    m_height = height;
+    m_width = width;
+    m_level = level;
     m_vertices.setPrimitiveType(sf::Quads);
     m_vertices.resize(width * height * 4);
 
@@ -20,6 +24,11 @@ TileMap::TileMap(const sf::Vector2u tileSize, const sf::Color* level, unsigned i
             quad[3].position = sf::Vector2f(i * tileSize.x, (j + 1) * tileSize.y);
         }
     }
+}
+
+sf::Color TileMap:: element_at (int i, int j) {
+
+    return m_level[i + j * m_width];
 }
 
 void TileMap::draw(sf::RenderTarget& target, sf::RenderStates states) const {
