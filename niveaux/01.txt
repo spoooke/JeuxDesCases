@@ -1,0 +1,7 @@
+# Majuscule = case (R rouge, V vert, B bleu), minuscule = case avec une étoile, . = trou
+nom Tout droit
+taille 5 1
+depart 0 0 E
+fonctions 2
+grille
+BBBBb

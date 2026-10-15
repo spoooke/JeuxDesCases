@@ -1,0 +1,7 @@
+nom Le repère
+taille 6 2
+depart 0 0 E
+fonctions 2 5
+grille
+BBBBBr
+b.....

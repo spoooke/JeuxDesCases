@@ -1,0 +1,10 @@
+nom L'escalier
+taille 5 5
+depart 0 0 E
+fonctions 3 3
+grille
+BB...
+.BB..
+..bB.
+...BB
+....b
