@@ -30,3 +30,16 @@
 *.exe
 *.out
 *.app
+
+# Build
+build/
+bin/
+lib/
+*.lvl
+
+# SFML copied locally
+SFML-*/
+
+# Editor and system
+.vscode/
+.DS_Store
